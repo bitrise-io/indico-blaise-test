@@ -7,14 +7,14 @@ env:
   PYTHON_VERSION_312: '3.12.0'
 
 on:
-  push:
-    branches:
-      - master
-      - '*.x'
-  pull_request:
-    branches:
-      - master
-      - '*.x'
+  # push:
+  #   branches:
+  #     - master
+  #     - '*.x'
+  # pull_request:
+  #   branches:
+  #     - master
+  #     - '*.x'
   workflow_dispatch: {}
 
 jobs:
