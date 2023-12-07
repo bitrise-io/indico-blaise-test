@@ -1,16 +1,16 @@
 name: CodeQL
 
 on:
-  push:
-    branches:
-      - master
-      - '*.x'
-  pull_request:
-    branches:
-      - master
-      - '*.x'
-  schedule:
-    - cron: '0 0 * * 2'
+  # push:
+  #   branches:
+  #     - master
+  #     - '*.x'
+  # pull_request:
+  #   branches:
+  #     - master
+  #     - '*.x'
+  # schedule:
+  #   - cron: '0 0 * * 2'
 
 jobs:
   analyze:
