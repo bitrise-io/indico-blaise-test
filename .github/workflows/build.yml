@@ -1,27 +1,27 @@
 name: Build
 
 on:
-  push:
-    branches:
-      - 'master'
-      - '*.x'
-      - '!1.*'
-      - '!2.*'
-      - '!3.0.*'
-      - '!3.1.*'
-  pull_request:
-      branches:
-        - 'master'
-        - '*.x'
-        - '!1.*'
-        - '!2.*'
-        - '!3.0.*'
-        - '!3.1.*'
-      types:
-        - opened
-        - reopened
-        - synchronize
-        - labeled
+  # push:
+  #   branches:
+  #     - 'master'
+  #     - '*.x'
+  #     - '!1.*'
+  #     - '!2.*'
+  #     - '!3.0.*'
+  #     - '!3.1.*'
+  # pull_request:
+  #     branches:
+  #       - 'master'
+  #       - '*.x'
+  #       - '!1.*'
+  #       - '!2.*'
+  #       - '!3.0.*'
+  #       - '!3.1.*'
+  #     types:
+  #       - opened
+  #       - reopened
+  #       - synchronize
+  #       - labeled
 
 jobs:
   build:
